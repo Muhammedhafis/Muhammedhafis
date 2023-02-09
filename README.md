@@ -4,9 +4,9 @@
   <p>&nbsp;</p><p><br /></p><p><br /></p>
   
   
-<h1 align="center">Free Fire Phishing - OnlineHacking</h1>
+<h1 align="center">Whatsapp GhatGPT AI - OnlineHacking</h1>
 <p align="center">
-  Free Fire ID Hack Use Termux
+  Wahatapp AI Bot For Termux
 </p>
 <p align="center">
 <a href="https://termux.xyz/hack-install-free-fire-phishing-tool-with-termux/"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
@@ -16,21 +16,21 @@
 
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Version-2.8-blue?style=for-the-badge&color=blue">
-     <img src="https://img.shields.io/github/stars/OnlineHacKing/FreeFire-Phishing?style=for-the-badge&color=magenta">
-  <img src="https://img.shields.io/github/forks/OnlineHacKing/FreeFire-Phishing?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/OnlineHacKing/FreeFire-Phishing?color=red&style=for-the-badge">
-    <img src="https://img.shields.io/github/license/OnlineHacKing/FreeFire-Phishing?style=for-the-badge&color=blue">
+    <img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge&color=blue">
+     <img src="https://img.shields.io/github/stars/OnlineHacKing/Whatsapp-ChatGPT?style=for-the-badge&color=magenta">
+  <img src="https://img.shields.io/github/forks/OnlineHacKing/Whatsapp-ChatGPT?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/issues/OnlineHacKing/Whatsapp-ChatGPT?color=red&style=for-the-badge">
+    <img src="https://img.shields.io/github/license/OnlineHacKing/Whatsapp-ChatGPT?style=for-the-badge&color=blue">
 <br>
     <img src="https://img.shields.io/badge/Author-SUMAN-green?style=flat-square">
-    <img src="https://img.shields.io/badge/Open%20Source-No-orange?style=flat-square">
-    <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
+    <img src="https://img.shields.io/badge/Open%20Source-Yes-orange?style=flat-square">
+    <img src="https://img.shields.io/badge/Maintained-No-cyan?style=flat-square">
     <img src="https://img.shields.io/badge/Written%20In-Shell-blue?style=flat-square">
 </p>
 
 <p align="center">
-<a href="https://termux.xyz/hack-install-free-fire-phishing-tool-with-termux/"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-FreeFirePhishing-green.svg"></a>
-<a href="https://termux.xyz/hack-install-free-fire-phishing-tool-with-termux/"><img title="Version" src="https://img.shields.io/badge/Version-2.8-green.svg?style=flat-square"></a>
+<a href="https://termux.xyz/hack-install-free-fire-phishing-tool-with-termux/"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Whatsapp-ChatGPT-green.svg"></a>
+<a href="https://termux.xyz/hack-install-free-fire-phishing-tool-with-termux/"><img title="Version" src="https://img.shields.io/badge/Version-1.1-green.svg?style=flat-square"></a>
 <a href="https://termux.xyz/hack-install-free-fire-phishing-tool-with-termux/"><img title="Maintainence" src="https://img.shields.io/badge/Admin-SUMAN-green.svg"></a>
 </p>
 
