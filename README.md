@@ -50,7 +50,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 <p align="center">
 
-![unnamed (2)](https://termux.xyz/)
+![unnamed (2)](https://github.com/OnlineHacKing/Whatsapp-ChatGPT/releases/download/1.1/1.jpg)
 
 </p>
 
