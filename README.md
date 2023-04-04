@@ -1,4 +1,4 @@
-# Using Tutorial : [https://termux.xyz/](https://termux.xyz/how-to-build-a-whatsapp-chatbot-with-chatgpt-in-termux/)
+# Using Tutorial : https://termux.xyz/how-to-build-a-whatsapp-chatbot-with-chatgpt-in-termux/
 
   <p>&nbsp;</p><p><br /></p><p><br /></p><p><br /></p>
   <p>&nbsp;</p><p><br /></p><p><br /></p>
@@ -80,10 +80,10 @@ This is a source code to build a WhatsApp bot using OpenAI bot and Node.js. The 
 
 ## ✅ INSTALLATION [ Linux / Termux ] :
 
-  Link: https://termux.xyz/how-to-build-a-whatsapp-chatbot-with-chatgpt-in-termux/
+ Link: https://termux.xyz/how-to-build-a-whatsapp-chatbot-with-chatgpt-in-termux/
 
 
-Visit: https://termux.xyz <br>
+<br>
 
 # How to get OpenAI API?
 Visit: https://beta.openai.com/account/api-keys
