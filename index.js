@@ -1,6 +1,6 @@
 const qrcode = require('qrcode-terminal');
 
-const { Client } = require('suman.js');
+const { Client } = require('whatsapp-web.js');
 const client = new Client();
 
 client.on('qr', qr => {
