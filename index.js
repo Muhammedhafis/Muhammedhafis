@@ -6,7 +6,7 @@ const fs = require('fs');
 const util = require('util');
 const chalk = require('chalk');
 const { Configuration, OpenAIApi } = require('openai');
-const { sansekai } = require('./suman');
+const { sansekai } = require('./suman.js');
 
 const BOT_NAME = process.env.BOT_NAME ?? 'Termux XYZ';
 const SESSION_FILE_PATH = './session.json';
