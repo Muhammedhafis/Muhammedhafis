@@ -1,10 +1,90 @@
-const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
-const fs = require('fs')
-const util = require('util')
-const chalk = require('chalk')
-const { Configuration, OpenAIApi } = require("openai")
-let setting = require('./api.json')
-const BOT_NAME = process.env.BOT_NAME ?? "Termux XYZ";
+const { create, decryptMedia } = require('@adiwajshing/baileys');
+const fs = require('fs');
+const util = require('util');
+const chalk = require('chalk');
+const { Configuration, OpenAIApi } = require('openai');
+const qrcode = require('qrcode-terminal');
+const express = require('express');
+
+let setting = require('./api.json');
+const BOT_NAME = process.env.BOT_NAME ?? 'Termux XYZ';
+
+// Create an Express app for serving the QR code
+const app = express();
+const port = 3000; // Change this port as needed
+
+// Create an instance of the WhatsApp client
+const client = create();
+
+// Function to generate the WhatsApp QR code
+const generateQRCode = async () => {
+  const qrContent = await client.generateLinkForQRCode();
+  qrcode.generate(qrContent, { small: true });
+};
+
+// Function to handle incoming WhatsApp messages
+const handleMessage = async (m, chatUpdate, store) => {
+  // ... Your existing message handling logic here ...
+
+  if (setting.autoAI) {
+    // ... Your existing AI chat functionality ...
+  }
+
+  if (!setting.autoAI) {
+    if (isCmd2) {
+      switch (command) {
+        case 'ai':
+          // ... Your existing AI command handling ...
+          break;
+        default:
+          // ... Your existing default command handling ...
+      }
+    }
+  }
+};
+
+// Start the WhatsApp client and handle incoming messages
+const startClient = async () => {
+  client.ev.on('qr', (qr) => {
+    generateQRCode(); // Generate and display the QR code when needed
+  });
+
+  client.ev.on('open', () => {
+    console.log(chalk.green('Connected to WhatsApp!'));
+  });
+
+  client.ev.on('message-new', async (m, chatUpdate, store) => {
+    await handleMessage(m, chatUpdate, store);
+  });
+
+  await client.connect({ timeoutMs: 60 * 1000 });
+};
+
+// Start the Express app to serve the QR code
+const startServer = () => {
+  app.get('/qr', (req, res) => {
+    generateQRCode(); // Generate the QR code on-demand
+    const qrImagePath = 'qrcode.png'; // Change this to your desired path and filename
+    res.sendFile(qrImagePath, { root: __dirname });
+  });
+
+  app.listen(port, () => {
+    console.log(`QR code server is running at http://localhost:${port}`);
+  });
+};
+
+// Call the functions to start the WhatsApp client and Express server
+startClient();
+startServer();
+
+// Reload the module on file changes
+let file = require.resolve(__filename);
+fs.watchFile(file, () => {
+  fs.unwatchFile(file);
+  console.log(chalk.redBright(`Update ${__filename}`));
+  delete require.cache[file];
+  require(file);
+});
 
 module.exports = sansekai = async (client, m, chatUpdate, store) => {
     try {
