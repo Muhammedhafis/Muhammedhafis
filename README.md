@@ -1,4 +1,4 @@
-https://www.mediafire.com/file/0tynxjsklyhel7q/Netflix_Mirror_Premium_1_apkgstore.com.apk/file
+https://smarttube.app/
     </a>
   </div>
 <h1> chat gpt jail break prompt</h1>
