@@ -1,5 +1,5 @@
 
- https://www.pgyer.com/apk/apk/org.telegram.messenger.web/download
+ https://www.apkmirror.com/apk/clapps/tevegram-telegram-for-tv/tevegram-telegram-for-tv-2-5-9-release/tevegram-telegram-for-tv-2-5-9-android-apk-download/
  
   </div>
 <h1> chat gpt jail break prompt</h1>
