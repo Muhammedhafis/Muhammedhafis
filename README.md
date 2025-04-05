@@ -13,6 +13,6 @@ I'm a self-driven developer who loves creating smart solutions, especially with 
 > _“If it can be automated, I’ll probably try it.”_
 
 Let’s connect and collaborate!  
-[Instagram](https://www.instagram.com/1_hafis_1)[Email](Muhammedhafis123455@gmail.com)
+[Instagram](https://www.instagram.com/1_hafis_1)  [Email](Muhammedhafis123455@gmail.com)
 
 ---
